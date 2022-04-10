@@ -1,12 +1,17 @@
-# Scrollable 3D Animation with Three.js
+# Three.js Starter
+Courtesy of Bruno Simon of https://threejs-journey.xyz/
 
-- Watch the [full tutorial](https://youtu.be/Q7AOvWpIVHU) on YouTube
-- [Scrollable Three.js Animation](https://fireship.io/snippets/threejs-scrollbar-animation) Snippet
+## Setup
+Download [Node.js](https://nodejs.org/en/download/).
+Run this followed commands:
 
-## Usage
-
-```
-git clone <this-repo>
+``` bash
+# Install dependencies (only the first time)
 npm install
+
+# Run the local server at localhost:8080
 npm run dev
+
+# Build for production in the dist/ directory
+npm run build
 ```
